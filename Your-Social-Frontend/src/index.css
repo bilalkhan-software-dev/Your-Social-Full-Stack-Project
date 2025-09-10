@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f2f2f3;
+  color: rgb(10, 115, 165);
+  scroll-behavior: smooth;
+}
+
+/* Option 2: Using system preference (better approach) */
+@media (prefers-color-scheme: dark) {
+  body {
+    /* background: linear-gradient(to right, #918e8ecc, #404042); light gray to dark gray */
+    background: #000000cc;
+    scroll-behavior: smooth;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
