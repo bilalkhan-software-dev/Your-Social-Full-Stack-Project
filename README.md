@@ -54,7 +54,6 @@ Designed to showcase **real-world full stack development skills** including auth
 | **Backend**      | Spring Boot, Spring Data JPA, Spring Security (JWT), WebSocket (STOMP/SockJS) |
 | **Database**     | MySQL                                                                         |
 | **Media**        | Cloudinary                                                                    |
-| **Build/Deploy** | Maven, Railway.app (backend), Netlify/Vercel (frontend)                       |
 
 ---
 
